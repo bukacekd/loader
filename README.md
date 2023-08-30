@@ -2,9 +2,9 @@
 
 <p>
     <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/badge/dependencies-none-green.svg" alt="none dependencies"></a>
-    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/npm/v/%40js4y%2FLoader" alt="npm"></a>
-    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/bundlephobia/minzip/%40js4y%2FLoader" alt="npm bundle size"></a>
-    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/%40js4y%2FLoader" alt="license"></a>
+    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/npm/v/%40js4y%2Floader" alt="npm"></a>
+    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/bundlephobia/minzip/%40js4y%2Floader" alt="npm bundle size"></a>
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/%40js4y%2Floader" alt="license"></a>
 </p>
 
 A tiny dependency-free javascript loading spinner component with minimal configuration.
