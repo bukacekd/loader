@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>@js4y/loader - tiny dependency-free javascript loading spinner component with minimal configuration.</title>
+        <meta name="description" content="A tiny dependency-free javascript loading spinner component with minimal configuration.">
+        <meta name="keywords" content="indicator, loader, loading, progress, spinner">
+        <meta name="google-site-verification" content="x-lPK8EYERI5lbPVpUxJTlYIt8tdVO4aRY0uTh0yXKE">
+        <link rel="apple-touch-icon" sizes="180x180" href="/loader/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/loader/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/loader/favicon-16x16.png">
+        <link rel="manifest" href="/loader/site.webmanifest">
+        <link rel="mask-icon" href="/loader/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+      <script type="module" crossorigin src="/loader/assets/index-de167ce6.js"></script>
+      <link rel="stylesheet" href="/loader/assets/index-635e5914.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="header__heading">@js4y/Loader</h1>
+
+            <a href="https://www.npmjs.com/package/@js4y/loader" aria-label="view on Npm" target="_blank">
+                <svg aria-hidden="true" class="header__icon" viewBox="0 0 32 32">
+                    <path d="M3.766 31.965A3.524 3.524 0 0 1 .242 28.44V3.761A3.524 3.524 0 0 1 3.766.239H28.44a3.525 3.525 0 0 1 3.528 3.524v24.68a3.525 3.525 0 0 1-3.528 3.523Zm1.761-5.285V5.527H26.68V26.68h-5.285V10.813h-5.29V26.68Zm0 0" fill-rule="evenodd"/>
+                </svg>
+            </a>
+
+            <a href="https://github.com/bukacekd/loader" aria-label="view on GitHub" target="_blank">
+                <svg aria-hidden="true" class="header__icon" viewBox="0 0 32 32">
+                    <path d="M16 0c8.84 0 16 7.16 16 16 0 6.875-4.387 12.98-10.898 15.18-.801.16-1.102-.34-1.102-.758 0-.543.02-2.262.02-4.402 0-1.5-.5-2.461-1.079-2.961 3.559-.399 7.297-1.758 7.297-7.899 0-1.762-.617-3.18-1.636-4.3.16-.4.718-2.04-.16-4.239 0 0-1.34-.441-4.403 1.64a14.709 14.709 0 0 0-4-.542c-1.36 0-2.719.18-4 .543-3.059-2.063-4.398-1.64-4.398-1.64-.88 2.198-.32 3.839-.16 4.237C6.46 11.98 5.84 13.422 5.84 15.16c0 6.121 3.719 7.5 7.281 7.899-.46.402-.883 1.101-1.02 2.14-.921.422-3.222 1.102-4.66-1.32-.3-.48-1.203-1.66-2.46-1.64-1.34.023-.54.761.019 1.062.68.379 1.46 1.8 1.64 2.258.32.902 1.36 2.62 5.38 1.882 0 1.34.02 2.598.02 2.98 0 .419-.302.9-1.099.759A15.993 15.993 0 0 1 0 16C0 7.16 7.16 0 16 0Zm0 0"/>
+                </svg>
+            </a>
+        </header>
+
+        <main>
+            <section>
+                <h2>Introduction</h2>
+
+                <p>
+                    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://img.shields.io/badge/dependencies-none-green.svg" alt="none dependencies"></a>
+                    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://img.shields.io/npm/v/%40js4y%2Floader" alt="npm"></a>
+                    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://img.shields.io/bundlephobia/minzip/%40js4y%2Floader" alt="npm bundle size"></a>
+                    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/%40js4y%2Floader" alt="license"></a>
+                </p>
+
+                <p>
+                    A tiny dependency-free javascript loading spinner component with minimal configuration. By using CSS styles, it is possible to easily customize the appearance of a component, including adding custom text.
+                </p>
+
+                
+            </section>
+
+            <aside>
+                <h2>Configuration</h2>
+
+                <form>
+                    <div id="example"></div>
+
+                    <label>
+                        Placement
+
+                        <select name="placement">
+                            <option value="static">Inside parent</option>
+                            <option value="absolute">Over parent</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Text position
+
+                        <select name="position">
+                            <option value="column-reverse">Above</option>
+                            <option value="column" selected>Below</option>
+                            <option value="row-reverse">Left</option>
+                            <option value="row">Right</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Font color
+
+                        <input type="color" name="font-color">
+                    </label>
+    
+                    <label>
+                        Icon color
+
+                        <input type="color" name="icon-color">
+                    </label>
+
+                    <label>
+                        Font size
+
+                        <input type="range" name="font-size" min="14" max="22" step="2" value="16" list="font-size">
+
+                        <datalist id="font-size">
+                            <option value="14" label="14px"></option>
+                            <option class="bold" value="16" label="16px"></option>
+                            <option value="18" label="18px"></option>
+                            <option value="20" label="20px"></option>
+                            <option value="22" label="22px"></option>
+                        </datalist>
+                    </label>
+
+                    <label>
+                        Icon size
+
+                        <input type="range" name="icon-size" min="20" max="60" step="10" value="40" list="icon-size">
+
+                        <datalist id="icon-size">
+                            <option value="20" label="20px"></option>
+                            <option value="30" label="30px"></option>
+                            <option class="bold" value="40" label="40px"></option>
+                            <option value="50" label="50px"></option>
+                            <option value="60" label="60px"></option>
+                        </datalist>
+                    </label>
+
+                    <label>
+                        Rotation duration
+
+                        <input type="range" name="rotation-duration" min="1" max="5" step="1" value="2" list="rotation-duration">
+
+                        <datalist id="rotation-duration">
+                            <option value="1" label="1s"></option>
+                            <option class="bold" value="2" label="2s"></option>
+                            <option value="3" label="3s"></option>
+                            <option value="4" label="4s"></option>
+                            <option value="5" label="5s"></option>
+                        </datalist>
+                    </label>
+    
+                    <label>
+                        Stroke width
+
+                        <input type="range" name="stroke-width" min="5" max="25" step="5" value="10" list="stroke-width">
+
+                        <datalist id="stroke-width">
+                            <option value="5" label="5%"></option>
+                            <option class="bold" value="10" label="10%"></option>
+                            <option value="15" label="15%"></option>
+                            <option value="20" label="20%"></option>
+                            <option value="25" label="25%"></option>
+                        </datalist>
+                    </label>                        
+                    
+                    <button type="reset">Reset!</button>
+                </form>
+            </aside>
+
+            <section>
+                <h2>JavaScript source code</h2>
+
+                <pre class="language-js"><code></code></pre>
+
+                <h2>CSS source code</h2>
+
+                <pre class="language-css"><code></code></pre>
+            </section>
+        </main>
+
+        <footer class="footer">
+            Built by <a href="https://github.com/bukacekd"><b>David Bukacek</b></a>
+        </footer>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "name": "@js4y/loader",
+  "version": "1.0.0",
+  "description": "A tiny dependency-free javascript loading spinner component with minimal configuration.",
+  "author": "David Bukacek <https://github.com/bukacekd>",
+  "license": "MIT",
+  "homepage": "https://github.com/bukacekd/Loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bukacekd/Loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bukacekd/Loader/issues"
+  },
+  "keywords": [
+    "indicator",
+    "loader",
+    "loading",
+    "progress",
+    "spinner"
+  ],
+  "files": [
+    "dist/",
+    "images/"
+  ],
+  "type": "module",
+  "main": "dist/index.mjs",
+  "jsdelivr": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "scripts": {
+    "build": "npm run lint && node esbuild.config.js",
+    "docs": "vite build --config src-docs/vite.config.js",
+    "docs:dev": "vite --config src-docs/vite.config.js --open",
+    "docs:preview": "vite preview --config src-docs/vite.config.js --open",
+    "lint": "eslint --ext .js,.ts src tests",
+    "test": "vitest run",
+    "test:dev": "vitest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "esbuild": "^0.19.0",
+    "eslint": "^8.46.0",
+    "happy-dom": "^10.9.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.1"
+  }
+}
