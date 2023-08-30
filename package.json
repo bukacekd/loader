@@ -1,6 +1,6 @@
 {
   "name": "@js4y/loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny dependency-free javascript loading spinner component with minimal configuration.",
   "author": "David Bukacek <https://github.com/bukacekd>",
   "license": "MIT",
