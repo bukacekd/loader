@@ -1,15 +1,15 @@
 # Loader
 
 <p>
-    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/badge/dependencies-none-green.svg" alt="none dependencies"></a>
-    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/npm/v/%40js4y%2Floader" alt="npm"></a>
-    <a href="https://www.npmjs.com/package/@js4y/Loader"><img src="https://img.shields.io/bundlephobia/minzip/%40js4y%2Floader" alt="npm bundle size"></a>
+    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://img.shields.io/badge/dependencies-none-green.svg" alt="none dependencies"></a>
+    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://img.shields.io/npm/v/%40js4y%2Floader" alt="npm"></a>
+    <a href="https://www.npmjs.com/package/@js4y/loader"><img src="https://deno.bundlejs.com/badge?q=@js4y/loader&treeshake=[*]" alt="npm bundle size"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/%40js4y%2Floader" alt="license"></a>
 </p>
 
 A tiny dependency-free javascript loading spinner component with minimal configuration.
 
-Live Demo: https://bukacekd.github.io/Loader
+Live Demo: https://bukacekd.github.io/loader
 
 ## Features
 
@@ -175,5 +175,6 @@ The project is licensed under [MIT license](https://opensource.org/license/mit/)
 
 ## Related
 
-- [Dialog](https://github.com/bukacekd/Dialog) - A tiny dependency-free JavaSript ES6 library built on a dialog element with minimal configuration.
-- [lock-scroll](https://github.com/bukacekd/lock-scroll) - A set of methods to lock scrolling within an element or an entire page.
+- [CountUp](https://github.com/bukacekd/count-up) - A tiny dependency-free JavaSript library for animating numeric values.
+- [Dialog](https://github.com/bukacekd/dialog) - A tiny dependency-free JavaSript ES6 library built on a dialog element with minimal configuration.
+- [lockScroll](https://github.com/bukacekd/lock-scroll) - A set of methods to lock scrolling within an element or an entire page.
