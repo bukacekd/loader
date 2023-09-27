@@ -28,7 +28,7 @@ test('set content', () => {
     expect(element.textContent).toBe('content');
 });
 
-test('open/close laoder', async () => {
+test('open/close loader', async () => {
     await loader.close();
     expect(element.getAttribute('data-loader')).toBe('close');
     await loader.open();
