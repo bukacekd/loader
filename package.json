@@ -1,16 +1,16 @@
 {
   "name": "@js4y/loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny dependency-free javascript loading spinner component with minimal configuration.",
   "author": "David Bukacek <https://github.com/bukacekd>",
   "license": "MIT",
-  "homepage": "https://github.com/bukacekd/Loader#readme",
+  "homepage": "https://github.com/bukacekd/loader#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bukacekd/Loader.git"
+    "url": "git+https://github.com/bukacekd/loader.git"
   },
   "bugs": {
-    "url": "https://github.com/bukacekd/Loader/issues"
+    "url": "https://github.com/bukacekd/loader/issues"
   },
   "keywords": [
     "indicator",
