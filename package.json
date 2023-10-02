@@ -1,6 +1,6 @@
 {
   "name": "@js4y/loader",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A tiny dependency-free javascript loading spinner component with minimal configuration.",
   "author": "David Bukacek <https://github.com/bukacekd>",
   "license": "MIT",
@@ -24,11 +24,12 @@
     "images/"
   ],
   "type": "module",
+  "types": "dist/index.d.ts",
   "main": "dist/index.mjs",
   "jsdelivr": "dist/index.js",
   "unpkg": "dist/index.js",
   "scripts": {
-    "build": "npm run lint && node esbuild.config.js",
+    "build": "npm run lint && node esbuild.config.js && tsc",
     "docs": "vite build --config src-docs/vite.config.js",
     "docs:dev": "vite --config src-docs/vite.config.js --open",
     "docs:preview": "vite preview --config src-docs/vite.config.js --open",
